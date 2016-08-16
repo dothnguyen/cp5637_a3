@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TNDEV - Indie Android & iOS developers - Apps</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<header class="navigation">
+    <div class="content-wrapper navigation-wrapper">
+        <div class="logo-wrapper">
+            <a class="logo" href="index.html">tndev</a>
+        </div>
+        <nav>
+            <ul class="navigation-menu">
+                <li class="menu-item">
+                    <a href="index.html#apps-container">Apps</a>
+                </li>
+                <li class="menu-item">
+                    <a href="about.html">About Us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="about.html#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="carouselbox">
+    <div class="carousel-content">
+        <div class="carousel-item fade app1">
+            <div class="content-wrapper">
+                <div class="intro-left intro-image-container">
+                    <div class="screenshot-container">
+                        <div class="left-screen">
+                            <div class="screen1"></div>
+                        </div>
+                        <div class="right-screen">
+                            <div class="screen2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-right intro-text-wrapper">
+                    <h1 class="intro-text">Make your lovely moments <strong>more lovely</strong> with </h1>
+                    <h1 class="intro-app-name"><a href="app.html">Lovely Photo Frames</a></h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.loveframes">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item fade app2">
+            <div class="content-wrapper">
+                <div class="intro-left intro-text-wrapper">
+                    <h1 class="intro-text">Collage your best moments with</h1>
+                    <h1 class="intro-app-name"><a href="app1.html">Photo Collages Camera</a></h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.collageart">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="intro-right intro-image-container">
+                    <div class="screenshot-container">
+                        <img src="images/screen3.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item fade app3">
+            <div class="content-wrapper">
+                <div class="intro-left intro-image-container">
+                    <div class="screenshot-container">
+                        <div class="left-screen">
+                            <div class="screen4"></div>
+                        </div>
+                        <div class="right-screen">
+                            <div class="screen5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-right intro-text-wrapper">
+                    <h1 class="intro-text">Make your lovely kids <strong>MORE LOVELY</strong> with </h1>
+                    <h1 class="intro-app-name"><a href="app2.html">Kids Photo Frames</a></h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.kidsframes">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-buttons">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+
+<div class="apps-container" id="apps-container">
+    <div class="content-wrapper apps-wrapper">
+        <div class="title-text">Apps & Games</div>
+        <div class="app-item-wrapper" id="app-item-wrapper">
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon lovely-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app.html">
+                        Lovely Photo Frames
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app.html"></a>
+            </div>
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon collage-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app1.html">
+                        Photo Collages Camera
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app1.html"></a>
+            </div>
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon christmas-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app2.html">
+                        Christmas Photo Frames
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app2.html"></a>
+            </div>
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon collage-edit-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app3.html">
+                        Collages Editor
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app3.html"></a>
+            </div>
+
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon connect-2-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app4.html">
+                        Connect - 2
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app4.html"></a>
+            </div>
+
+            <div class="app-item">
+
+                <div class="icon-container">
+                    <div class="app-icon kids-icon"></div>
+                </div>
+
+                <div class="app-item-name">
+                    <a href="app5.html">
+                        Kids Photo Frames
+                    </a>
+                </div>
+                <a class="app-item-click-target" href="app5.html"></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    Copyright 2016, TNDEV.
+</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
