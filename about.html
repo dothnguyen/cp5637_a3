@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TNDEV - About Us</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="navigation">
+    <div class="content-wrapper navigation-wrapper">
+        <div class="logo-wrapper">
+            <a class="logo" href="index.html">tndev</a>
+        </div>
+        <nav>
+            <ul class="navigation-menu">
+                <li class="menu-item">
+                    <a href="index.html">Apps</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="about.html#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="carouselbox">
+    <div class="carousel-content">
+        <div class="carousel-item fade app1">
+            <div class="content-wrapper">
+                <div class="intro-left intro-image-container">
+                    <div class="screenshot-container">
+                        <div class="left-screen">
+                            <div class="screen1"></div>
+                        </div>
+                        <div class="right-screen">
+                            <div class="screen2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-right intro-text-wrapper">
+                    <h1 class="intro-text">Make your lovely moments <strong>more lovely</strong> with </h1>
+                    <h1 class="intro-app-name"><a href="app.html">Lovely Photo Frames</a></h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.loveframes">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item fade app2">
+            <div class="content-wrapper">
+                <div class="intro-left intro-text-wrapper">
+                    <h1 class="intro-text">Collage your best moments with</h1>
+                    <h1 class="intro-app-name">Photo Collages Camera</h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.collageart">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="intro-right intro-image-container">
+                    <div class="screenshot-container">
+                        <img src="images/screen3.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item fade app3">
+            <div class="content-wrapper">
+                <div class="intro-left intro-image-container">
+                    <div class="screenshot-container">
+                        <div class="left-screen">
+                            <div class="screen4"></div>
+                        </div>
+                        <div class="right-screen">
+                            <div class="screen5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-right intro-text-wrapper">
+                    <h1 class="intro-text">Make your lovely kids <strong>MORE LOVELY</strong> with </h1>
+                    <h1 class="intro-app-name">Kids Photo Frames</h1>
+
+                    <div>
+                        <a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.kidsframes">
+                            <img class="googleplay-button" src="images/googleplay.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-buttons">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+<div>
+    <div class="content-wrapper about-wrapper" id="about">
+        <div class="title-text">About us</div>
+        <p>
+        <blockquote class="medium-text">
+            Tndev is a group of several indie developers. We are specialize in Java, and J2EE in particular. We were famililar with JEE concepts, such as Enterprise Java Bean (EJB), JPA, Hibernate, JSP/Servlet, JSF.
+        </blockquote>
+        </p>
+        <p>
+        <blockquote class="medium-text">
+            When Android was introduced in 2008, as it used Java language for its app development, we tried to created several apps. And we realized the huge potential of Android platform, and focused our resource on it.
+        </blockquote>
+        </p>
+    </div>
+</div>
+
+<div>
+    <div class="content-wrapper about-wrapper" id="contact">
+        <div class="title-text">Contact Us</div>
+        <p><blockquote class="medium-text">Email: <a href="mailto:tayninhdev@gmail.com">tayninhdev@gmail.com</a></blockquote></p>
+    </div>
+</div>
+
+<div>
+    <div class="content-wrapper about-wrapper">
+        <div class="title-text">Send us a message</div>
+        <div>
+            <form method="post" action="#" class="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </div>
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Send your message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Copyright 2016, TNDEV.
+</footer>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
