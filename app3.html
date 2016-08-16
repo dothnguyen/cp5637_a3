@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collages Editor</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header class="navigation">
+        <div class="content-wrapper navigation-wrapper">
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html">tndev</a>
+            </div>
+            <nav>
+                <ul class="navigation-menu">
+                    <li class="menu-item">
+                        <a href="app3.html#screenshot-wrapper-div">Screenshots</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="app3.html#video">Video</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="app3.html#features">Features</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="app3.html#rating">Rating</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="app3.html#comments">Comments</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="introduction">
+        <div class="content-wrapper appname-wrapper">
+             <h1 class="app-name">Collages Editor</h1>
+            <div class="googleplay-button-wrapper"><a class="download-link" href="https://play.google.com/store/apps/details?id=com.tndev.collageedit">
+                <img class="googleplay-button" src="images/googleplay.png"/>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="content-wrapper screenshot-wrapper" id="screenshot-wrapper-div">
+        <div class="title-text">Screenshots</div>
+        <div id="screenshots">
+            <ul>
+                <li><img src="images/screenshot14.jpg"></li>
+                <li><img src="images/screenshot15.jpg"></li>
+                <li><img src="images/screenshot16.jpg"></li>
+                <li><img src="images/screenshot17.jpg"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="video-wrapper content-wrapper" id="video">
+
+        <div class="title-text">How it works</div>
+
+        <iframe width="500" height="350" src="https://www.youtube.com/embed/LZPwTeg6YjE" frameborder="0" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="feature-wrapper content-wrapper" id="features">
+        <div class="title-text">Features</div>
+        <ul  class="medium-text">
+            <li>Fully customizable templates: with each template, you can modify to create the most beautiful collage that is suitable for your photos.</li>
+            <li>Import photos from gallery or take from camera. You can choose existing photos in gallery by using the default gallery, or using any file manager app like ES File Manager, IO File Manager, Root Browser,...</li>
+            <li>Apply Instagram liked effects to your photo: there are many effects for you to apply to your photo.</li>
+            <li>Decorate the collage: you can add text, balloon text to the photo. </li>
+            <li>A built-in gallery for browsing created collage photos.</li>
+            <li>rowse the collage templates with different options: browse default templates, browse favorite templates, browse recently used templates or browse customized templates.</li>
+            <li>Share created collages with friends via Facebook, SMS, Mail,...</li>
+        </ul>
+    </div>
+
+    <div class="feature-wrapper content-wrapper" id="rating">
+        <div class="title-text">Rating & Reviews</div>
+        <div class="rating">
+            <span class="on">☆</span><span class="on">☆</span><span class="on">☆</span><span class="on">☆</span><span>☆</span>
+        </div>
+
+        <div class="review">
+            <div class="name">princess serrano</div>
+            <div class="review-content">Camera...... I love it so much u can do anything just pick a picture and keep doing whatever</div>
+        </div>
+
+        <div class="review">
+            <div class="name">Leliza Felipe</div>
+            <div class="review-content">love it so much!!! its easy to use and its perfect for my brother and me i super love it!!!</div>
+        </div>
+    </div>
+
+    <div class="feature-wrapper content-wrapper" id="comments">
+        <div class="title-text">Comments</div>
+        <div class="comment">
+            <div class="name">Nguyen Do</div>
+            <div class="comment-content">Excellent app! So easy to use. I gave 5 stars on Google Play.</div>
+        </div>
+
+        <div class="comment">
+            <div class="name">Ken</div>
+            <div class="comment-content">Its so beautiful. I can make my photos a lot beautiful.</div>
+        </div>
+
+        <div class="comment-form-container">
+            <form method="post" action="#" class="contact-form">
+                <div>Add your comment</div>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </div>
+                <div>
+                    <label for="msg">Comment:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Send your comment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        Copyright 2016, TNDEV.
+    </footer>
+</body>
+</html>
