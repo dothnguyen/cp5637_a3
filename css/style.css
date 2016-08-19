@@ -584,6 +584,15 @@ form.contact-form button {
     margin-top: 40px;
 }
 
+#plan-wrapper .content-wrapper p, #plan-wrapper .content-wrapper ul {
+    margin-left: 15px;
+}
+
+#plan-wrapper .content-wrapper p, #plan-wrapper .content-wrapper ul li {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
 /*For medium screen*/
 @media screen and (max-width: 900px) {
 
